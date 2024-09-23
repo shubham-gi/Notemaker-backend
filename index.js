@@ -15,7 +15,7 @@ app.use(cors({
 app.use('/api/auth',authRouter);
 app.use('/api/notes',notesRouter);
 app.get('/',(req,res)=>{
-    return res.send('Hello from express');
+    return res.send('This is the backend server of the Notemaker App created by Shubham Joshi');
 })
 app.listen(5000,()=>{
     console.log('Server is running on port 5000');
